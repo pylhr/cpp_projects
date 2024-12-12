@@ -1,1 +1,8 @@
-*.exe
+# Ignore everything
+*
+
+# Except .cpp files in the root directory and subdirectories
+!.cpp
+
+# Allow directories to be tracked
+!*/
